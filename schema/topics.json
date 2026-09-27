@@ -1,0 +1,12 @@
+[
+  { "number": 1,  "name": "Sets",                  "weeks": "Weeks 1-2",   "notes": "Notation, operations, Venn diagrams, De Morgan's laws, powersets" },
+  { "number": 2,  "name": "Functions",             "weeks": "Weeks 3-4",   "notes": "Domain, codomain, range, inverse, composition, injective/surjective" },
+  { "number": 3,  "name": "Propositional Logic",   "weeks": "Weeks 5-6",   "notes": "Truth tables, operators, implications, equivalence, De Morgan's laws" },
+  { "number": 4,  "name": "Predicate Logic",       "weeks": "Weeks 7-8",   "notes": "Quantifiers, nested quantifiers, inference rules, formal fallacies" },
+  { "number": 5,  "name": "Boolean Algebra",       "weeks": "Weeks 9-10",  "notes": "Boolean expressions, logic gates, circuits, K-maps, Huntington's axioms" },
+  { "number": 6,  "name": "Induction & Recursion", "weeks": "Weeks 11-12", "notes": "Direct proof, induction, strong induction, recursion, recurrence" },
+  { "number": 7,  "name": "Graphs",                "weeks": "Weeks 13-14", "notes": "Vertices, edges, paths, cycles, Dijkstra, adjacency matrix" },
+  { "number": 8,  "name": "Trees",                 "weeks": "Weeks 15-16", "notes": "Rooted trees, spanning trees, Kruskal, Prim, BST" },
+  { "number": 9,  "name": "Relations",             "weeks": "Week 17",     "notes": "Cartesian product, equivalence relations, partial orders" },
+  { "number": 10, "name": "Combinatorics",         "weeks": "Week 18",     "notes": "Counting rules, pigeonhole, permutations, combinations, binomial" }
+]

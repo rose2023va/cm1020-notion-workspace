@@ -1,0 +1,26 @@
+{
+  "title": "Remember This Rules",
+  "icon": "💡",
+  "description": "Accumulated rules, patterns, and insights to never forget, built up over the module",
+  "properties": {
+    "Rule": { "title": {} },
+    "Topic": { "select": { "options": [
+      { "name": "Sets", "color": "purple" },
+      { "name": "Functions", "color": "blue" },
+      { "name": "Propositional Logic", "color": "green" },
+      { "name": "Predicate Logic", "color": "yellow" },
+      { "name": "Boolean Algebra", "color": "orange" },
+      { "name": "Induction & Recursion", "color": "red" },
+      { "name": "Graphs", "color": "pink" },
+      { "name": "Trees", "color": "brown" },
+      { "name": "Relations", "color": "gray" },
+      { "name": "Combinatorics", "color": "default" },
+      { "name": "General", "color": "gray" }
+    ] } },
+    "Explanation": { "rich_text": {} },
+    "Example": { "rich_text": {} },
+    "Common Mistake": { "rich_text": {} },
+    "Date Added": { "date": {} },
+    "Review Count": { "number": { "format": "number" } }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Topic Progress",
+  "icon": "📊",
+  "description": "Confidence and progress per topic across the 19-week prep plan",
+  "properties": {
+    "Topic": { "title": {} },
+    "Number": { "number": { "format": "number" } },
+    "Status": { "select": { "options": [
+      { "name": "Not Started", "color": "gray" },
+      { "name": "In Progress", "color": "yellow" },
+      { "name": "Needs Review", "color": "orange" },
+      { "name": "Confident", "color": "blue" },
+      { "name": "Mastered", "color": "green" }
+    ] } },
+    "Confidence": { "select": { "options": [
+      { "name": "1 - Lost", "color": "red" },
+      { "name": "2 - Shaky", "color": "orange" },
+      { "name": "3 - Getting it", "color": "yellow" },
+      { "name": "4 - Solid", "color": "blue" },
+      { "name": "5 - Nailed it", "color": "green" }
+    ] } },
+    "Sessions Done": { "number": { "format": "number" } },
+    "Last Studied": { "date": {} },
+    "Weak Areas": { "rich_text": {} },
+    "Key Rules Learned": { "rich_text": {} },
+    "Prep Weeks": { "rich_text": {} },
+    "Notes": { "rich_text": {} }
+  }
+}

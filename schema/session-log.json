@@ -1,0 +1,51 @@
+{
+  "title": "Session Log",
+  "icon": "📝",
+  "description": "Every study session logged here: date, topic, type, confidence, notes",
+  "properties": {
+    "Session": { "title": {} },
+    "Date": { "date": {} },
+    "Topic": { "select": { "options": [
+      { "name": "Sets", "color": "purple" },
+      { "name": "Functions", "color": "blue" },
+      { "name": "Propositional Logic", "color": "green" },
+      { "name": "Predicate Logic", "color": "yellow" },
+      { "name": "Boolean Algebra", "color": "orange" },
+      { "name": "Induction & Recursion", "color": "red" },
+      { "name": "Graphs", "color": "pink" },
+      { "name": "Trees", "color": "brown" },
+      { "name": "Relations", "color": "gray" },
+      { "name": "Combinatorics", "color": "default" }
+    ] } },
+    "Prompt Type": { "select": { "options": [
+      { "name": "Daily Refresh", "color": "green" },
+      { "name": "DM Lesson", "color": "blue" },
+      { "name": "Morning Review", "color": "yellow" },
+      { "name": "Progressive Drill", "color": "orange" },
+      { "name": "Rescue Mode", "color": "red" },
+      { "name": "Feynman Loop", "color": "purple" },
+      { "name": "Cheat Sheet", "color": "pink" },
+      { "name": "Lecture Pack", "color": "brown" },
+      { "name": "Weekly Review", "color": "gray" },
+      { "name": "Math Refresher", "color": "default" },
+      { "name": "Blog Post", "color": "green" },
+      { "name": "Update Tracker", "color": "blue" }
+    ] } },
+    "Duration (min)": { "number": { "format": "number" } },
+    "Confidence": { "select": { "options": [
+      { "name": "1 - Lost", "color": "red" },
+      { "name": "2 - Shaky", "color": "orange" },
+      { "name": "3 - Getting it", "color": "yellow" },
+      { "name": "4 - Solid", "color": "blue" },
+      { "name": "5 - Nailed it", "color": "green" }
+    ] } },
+    "What I Understood": { "rich_text": {} },
+    "What Needs Review": { "rich_text": {} },
+    "Next Action": { "rich_text": {} },
+    "Status": { "select": { "options": [
+      { "name": "Done", "color": "green" },
+      { "name": "Needs Review", "color": "yellow" },
+      { "name": "Revisit", "color": "red" }
+    ] } }
+  }
+}
