@@ -3,7 +3,6 @@
 **What it is:** A Notion workspace that serves as the long-term memory for a six-month Discrete Mathematics study plan: every session, every topic's confidence, every rule worth remembering, and notes per topic. It is the storage layer behind the DM Study Agent's "Log to Notion" button, and it works on its own too.
 
 **Repository:** https://github.com/rose2023va/cm1020-notion-workspace
-**Built:** May 23, 2026 · **Setup script and documentation:** September 27, 2026
 **Author:** Rose
 
 ---
@@ -86,7 +85,7 @@ Seeded rows: Sets (Weeks 1-2), Functions (3-4), Propositional Logic (5-6), Predi
 
 ## 3. How the original was built
 
-The workspace was first created on May 23, 2026 from a chat session using Claude's Notion connector, which accepts a SQL-style schema. The original Session Log definition, recorded here as sent:
+The workspace was first created from a chat session using Claude's Notion connector, which accepts a SQL-style schema. The original Session Log definition, recorded here as sent:
 
 ```sql
 CREATE TABLE (
