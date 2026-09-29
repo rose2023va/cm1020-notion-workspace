@@ -11,7 +11,7 @@ A Notion workspace for studying **University of London CM1020 Discrete Mathemati
 - **Remember This Rules:** the one-line rule from each session, with an example, a common mistake, and a review count
 - **Study Notes:** a page per topic
 
-It works on its own, and it is the logging backend for the [DM Study Agent](https://github.com/rose2023va/dm-study-agent).
+It works on its own, and it is the logging backend for the [DM Study Agent](https://github.com/rosevillanuevadev/dm-study-agent).
 
 ## Build it (about two minutes)
 
@@ -23,7 +23,7 @@ Requires Node 18 or newer. No `npm install`.
 4. Run:
 
 ```bash
-git clone https://github.com/rose2023va/cm1020-notion-workspace
+git clone https://github.com/rosevillanuevadev/cm1020-notion-workspace
 cd cm1020-notion-workspace
 NOTION_TOKEN=ntn_your_token PARENT_PAGE_ID=your_page_id node scripts/setup-workspace.mjs
 ```

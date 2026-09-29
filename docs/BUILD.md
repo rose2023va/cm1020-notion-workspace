@@ -2,7 +2,7 @@
 
 **What it is:** A Notion workspace that serves as the long-term memory for a six-month Discrete Mathematics study plan: every session, every topic's confidence, every rule worth remembering, and notes per topic. It is the storage layer behind the DM Study Agent's "Log to Notion" button, and it works on its own too.
 
-**Repository:** https://github.com/rose2023va/cm1020-notion-workspace
+**Repository:** https://github.com/rosevillanuevadev/cm1020-notion-workspace
 **Author:** Rose
 
 ---

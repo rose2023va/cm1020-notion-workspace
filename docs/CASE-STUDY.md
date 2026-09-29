@@ -8,7 +8,7 @@
 
 A Notion workspace designed as the long-term memory for a Discrete Mathematics study plan: a session log, a per-topic progress tracker seeded with the ten CM1020 topics, a database of rules to remember, and topic notes. It receives session logs from the DM Study Agent, and it ships with a zero-dependency Node script that rebuilds the entire workspace from JSON schemas in one command.
 
-**Code:** github.com/rose2023va/cm1020-notion-workspace · **Role:** Solo
+**Code:** github.com/rosevillanuevadev/cm1020-notion-workspace · **Role:** Solo
 
 ## Project Scope (Problem)
 
